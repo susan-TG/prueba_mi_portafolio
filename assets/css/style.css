@@ -7,7 +7,7 @@ html {
    }
 
 .hero-section {
-    background-image: url(../css/img/bg_hero.png);
+    background-image: url(../img/bg_hero.png);
     height: 580px;
     position: relative;
     background-size: cover;
