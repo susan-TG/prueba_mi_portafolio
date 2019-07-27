@@ -1,0 +1,75 @@
+body {
+    font-family: 'Cabin', sans-serif;
+
+}
+.hero-section {
+    background-image: url(../css/img/bg_hero.png);
+    height: 580px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+
+}
+
+.background-fondo {
+    background-color: #0CC6F4;
+}
+
+.texto-uno {
+    padding-top: 400px;
+}
+
+.icono-experiencia {
+    color: #0CC6F4;
+    
+}
+.titulo  {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+    font-size: 2.6em;
+    color: #344A53;
+}
+
+.subtitulo {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+    font-size: 1.em;
+    color: #344A53;
+}
+.texto-subtitulo {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    font-size: 1.em;
+    color: #97AFB9;
+}
+.card-title {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+    font-size: 1.4em;
+    color: #344A53;
+}
+.card-text {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    font-size: 1.3em;
+    color: #97AFB9;
+}
+.borde-descripcion {
+    border-bottom: 4px solid #344A53;
+    width: 40px;
+    text-align: center;
+    
+}
+.subtitulo-descripcion {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+    color: #344A53;
+}
+.texto-descripcion {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    color: #97AFB9;
