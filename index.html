@@ -41,15 +41,16 @@
 
    <header class="hero-section text-center py-5">
        <div class="container texto-hero">
-            <h2 class="border-bottom border-black texto-uno">YO SOY</h2>
-            <h1>MAGDALENA</h1>    
+            <h2 class="texto-uno">YO SOY</h2>
+            <div class="borde-claro"></div>
+            <h1>MAGDALENA</h1> 
        </div>
    </header>
 
    <section id="descripcion" class="d-none d-sm-block my-5">
     <div class="container text-center">
         <h2 class="mb-5 subtitulo-descripcion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam maiores labore vel ad quas odit repellendus culpa, nesciunt asperiores aliquid, iusto illo.</h2>
-        <div class="borde-descripcion"></div>
+        <div class="borde-oscuro"></div>
         <div class="row">
             <div class="col-md-6 text-left py-5">
                 <p class="texto-descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, facere. Ducimus quam, ipsum cumque maiores dignissimos enim ut laborum nulla quibusdam in illum, dolorem nesciunt quas! Iste accusantium at tenetur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, facere. Ducimus quam, ipsum cumque maiores dignissimos enim ut laborum nulla quibusdam in illum, dolorem nesciunt quas! Iste accusantium at tenetur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, facere. Ducimus quam, ipsum cumque maiores dignissimos enim ut laborum nulla quibusdam in illum, dolorem nesciunt quas! Iste accusantium at tenetur. </p>
@@ -63,7 +64,8 @@
 
     <section id="experiencia">
         <div class="container text-center my-5">
-            <h1 class="border-bottom border-black py-3 titulo">MI EXPERIENCIA</h1>
+            <h1 class="border-bottom py-3 titulo">MI EXPERIENCIA</h1>
+            <div class="borde-oscuro"></div>
             <div class="row">
                 <div class="col-12 col-md-6 my-5">
                     <i class="fab fa-sketch fa-8x icono-experiencia"></i>
@@ -81,31 +83,59 @@
 
     <section id="trabajos" class="background-fondo my-5">
         <div class="container"> 
-            <h1 class="border-bottom border-white py-5 mb-4 text-white text-center titulo">MIS ÚLTIMOS TRABAJOS</h1>
+            <h1 class="py-3 text-white text-center titulo">MIS ÚLTIMOS TRABAJOS</h1>
+            <div class="borde-claro"></div>
                 <div class="row">
                     <div class="col-12 col-md-4">
-                        <div class="card mb-5">
+                        <div class="card my-5">
                             <img class="card-img-top" src="assets/css/img/meet_coffee.png" alt="Card image cap">
                             <div class="card-body">
-                                <h5 class="card-title border-top border-dark pt-3">Meet&Coffee</h5>
+                                <h5 class="card-title pt-3">Meet&Coffee</h5>
                                 <p class="card-text pb-3">Filis tincidunt vel risus lacus</p>
+                                <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModalLong">
+                                    Ver más
+                                </button>
+                                    
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                            <img class="card-img-top" src="assets/css/img/meet_coffee.png" alt="Card image cap">
+                                            <h5 class="modal-title" id="exampleModalLongTitle">Meet&Coffe</h5>
+                                            <p class="modal-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, vero expedita. Esse, earum dolore tempora natus consequuntur aliquam obcaecati iste animi reiciendis optio pariatur asperiores voluptatum, commodi ipsa mollitia cumque!</p>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                            </div>
+                                            <div class="modal-body">
+                                            ...
+                                            </div>
+                                            <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-4">
-                        <div class="card mb-5">
+                        <div class="card my-5">
                             <img class="card-img-top" src="assets/css/img/iguana_page.png"  alt="Card image cap">
                             <div class="card-body">
-                                <h5 class="card-title border-top border-dark pt-3">Iguana Page</h5>
+                                <h5 class="card-title pt-3">Iguana Page</h5>
                                 <p class="card-text pb-3">Filis tincidunt vel risus lacus</p>                            
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-4">
-                        <div class="card mb-5">
+                        <div class="card my-5">
                             <img class="card-img-top" src="assets/css/img/suricata.png" alt="Card image cap">
                             <div class="card-body">
-                                <h5 class="card-title border-top border-dark pt-3">Suricata</h5>
+                                <h5 class="card-title pt-3">Suricata</h5>
                                 <p class="card-text pb-3">Filis tincidunt vel risus lacus</p>                            
                             </div>
                         </div>
@@ -113,28 +143,28 @@
                 </div>
                 <div class="row">
                     <div class="col-12 col-md-4">
-                        <div class="card mb-5">
+                        <div class="card my-5">
                             <img class="card-img-top" src="assets/css/img/cuppon.png" alt="Card image cap">
                             <div class="card-body">
-                                <h5 class="card-title border-top border-dark pt-3">Cuppon</h5>
+                                <h5 class="card-title pt-3">Cuppon</h5>
                                 <p class="card-text pb-3">Filis tincidunt vel risus lacus</p>                            
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-4">
-                        <div class="card mb-5">
+                        <div class="card my-5">
                             <img class="card-img-top" src="assets/css/img/ricomida.png" alt="Card image cap">
                             <div class="card-body">
-                                <h5 class="card-title border-top border-dark pt-3">Ricomida</h5>
+                                <h5 class="card-title pt-3">Ricomida</h5>
                                 <p class="card-text pb-3">Filis tincidunt vel risus lacus</p>                            
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-4">
-                        <div class="card mb-5">
+                        <div class="card my-5">
                             <img class="card-img-top" src="assets/css/img/dmark.png" alt="Card image cap">
                             <div class="card-body">
-                                <h5 class="card-title border-top border-dark pt-3">DMark</h5>
+                                <h5 class="card-title pt-3">DMark</h5>
                                 <p class="card-text pb-3">Filis tincidunt vel risus lacus</p>
                             </div>
                         </div>
@@ -148,15 +178,14 @@
         <div class="container text-center my-5">
             <div class="row">
                 <div class="col-12 my-5">
-                    <h1 class="border-bottom border-black py-3 titulo ">CONTACTO</h1>
-                    <button type="button" class="btn btn-secondary btn-lg btn-block">
+                    <h1 class="py-3 titulo">CONTACTO</h1>
+                    <div class="borde-oscuro"></div>
+                    <button type="button" class="btn btn-secondary btn-lg btn-block my-5">
                             Comenzar
                     </button>
                 </div>
-              
             </div>
         </div>
-
     </section>
 
     <footer class="background-fondo">

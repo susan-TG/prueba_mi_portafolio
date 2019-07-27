@@ -60,10 +60,15 @@ html {
     font-size: 1.3em;
     color: #97AFB9;
 }
-.borde-descripcion {
+.borde-oscuro {
     border-bottom: 4px solid #344A53;
-    width: 40px;
-    text-align: center;
+    width: 15%;
+    margin-left: 40%;
+}
+.borde-claro {
+    border-bottom: 4px solid #ffffff;
+    width: 25%;
+    margin-left: 36%;
     
 }
 .subtitulo-descripcion {
