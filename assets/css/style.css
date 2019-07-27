@@ -2,6 +2,10 @@ body {
     font-family: 'Cabin', sans-serif;
 
 }
+html {
+    scroll-behavior: smooth;
+   }
+
 .hero-section {
     background-image: url(../css/img/bg_hero.png);
     height: 580px;
@@ -10,11 +14,11 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     color: #ffffff;
-
 }
 
 .background-fondo {
     background-color: #0CC6F4;
+    
 }
 
 .texto-uno {
@@ -73,3 +77,4 @@ body {
     font-weight: 400;
     font-size: 1.2em;
     color: #97AFB9;
+}

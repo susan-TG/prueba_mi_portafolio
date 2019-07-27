@@ -14,7 +14,7 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark background-fondo border-white">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark background-fondo border-white">
         <div class="container">
             <a class="navbar-brand" href="#">M</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,16 +23,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Sobre mí <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#descripcion">Sobre mí <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Experiencia</a>
+                    <a class="nav-link" href="#experiencia">Experiencia</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Trabajos</a>
+                    <a class="nav-link" href="#trabajos">Trabajos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Contacto</a>
+                    <a class="nav-link disabled" href="#contacto">Contacto</a>
                 </li>
                 </ul>
             </div>
@@ -66,7 +66,6 @@
             <h1 class="border-bottom border-black py-3 titulo">MI EXPERIENCIA</h1>
             <div class="row">
                 <div class="col-12 col-md-6 my-5">
-                   
                     <i class="fab fa-sketch fa-8x icono-experiencia"></i>
                     <h2 class="subtitulo">Diseñadora UX/UI</h2>
                     <h3 class="texto-subtitulo">1980-2014</h3>
@@ -150,7 +149,9 @@
             <div class="row">
                 <div class="col-12 my-5">
                     <h1 class="border-bottom border-black py-3 titulo ">CONTACTO</h1>
-                    <button type="button" class="btn btn-secondary btn-lg btn-block">Comenzar</button>
+                    <button type="button" class="btn btn-secondary btn-lg btn-block">
+                            Comenzar
+                    </button>
                 </div>
               
             </div>
@@ -159,32 +160,24 @@
     </section>
 
     <footer class="background-fondo">
-        <div class="container text-center pb-5">          
-            <h1 class="text-white py-5">MAGDALENA</h1>
-            <i class="fab fa-github-square text-white fa-4x mx-2"></i>
-            <i class="fab fa-linkedin text-white fa-4x mx-2"></i>
-            <i class="fab fa-twitter-square text-white fa-4x mx-2"></i>
-            <i class="fab fa-facebook-square text-white fa-4x mx-2"></i>
+        <div class="container text-center pb-5"> 
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <h1 class="text-white py-5 nombre-contacto">MAGDALENA</h1>
+                </div>         
+                <div class="col-12 col-md-6 iconos-contacto pt-5">
+                    <i class="fab fa-github-square text-white fa-4x mx-2" data-toggle="tooltip" data-placement="top" title="Github"></i>
+                    <i class="fab fa-linkedin text-white fa-4x mx-2" data-toggle="tooltip" data-placement="top" title="Linkedin"></i>
+                    <i class="fab fa-twitter-square text-white fa-4x mx-2" data-toggle="tooltip" data-placement="top" title="Twitter"></i>
+                    <i class="fab fa-facebook-square text-white fa-4x mx-2" data-toggle="tooltip" data-placement="top" title="Facebook"></i>
+                </div>
+            </div>
         </div>
     </footer>
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+    <script src="assets/js/script.js"></script>
+</body>
 </html>
